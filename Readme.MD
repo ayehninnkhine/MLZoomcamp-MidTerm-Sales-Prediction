@@ -1,6 +1,6 @@
-# *Sales Prediction on Advertising Expenditures*  
+*Sales Prediction on Advertising Expenditures*  
 
-## **About the project**   
+**About the project**   
 
 The objective of the project is to predict the sales based on advertising expenses.
 * 'TV' - expenses on TV advertising
@@ -10,7 +10,7 @@ The objective of the project is to predict the sales based on advertising expens
    
 Developed ML model is realized as a web service and deployed to the Google Cloud Platform.    
    
-## **Structure of the repository**    
+**Structure of the repository**    
    
 The repository contains the next files and folders:
 
@@ -25,7 +25,7 @@ The repository contains the next files and folders:
 * `predict_local.py` - a python file to test and work with the locally deployed model
 * `predict_cloud.py` - a python file to test and work with the model, deployed to Google Cloud Platform    
 
-## **Virtual environment**   
+**Virtual environment**   
    
 Virtual environment of the project is provided by `Pipfile` and `Pipfile.lock`. These files contain all information about libraries and dependencies for the project. To create a virtual environment with libraries and dependencies required for the project, one should install `pipenv` library:  
    
@@ -37,7 +37,7 @@ Then it's necessary to clone this repository from GitHub, open a terminal in the
 `pipenv shell`     # to activate virtual environment
 
 
-## **Running a web service in a local server**   
+**Running a web service in a local server**   
       
 Developed final model is implemented in a web service. To run it, it's necessary to install `Docker`, create a container (which contains all system dependencies, libraries, scripts and others) and run it.   
    
@@ -68,7 +68,7 @@ The result of script's work should be as follows:
 }
 
 
-## **Running a web service in a cloud**   
+**Running a web service in a Google Cloud**   
    
 The web service is also deployed to Google Cloud Platform (Cloud Run) with the next commands:   
       
